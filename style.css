@@ -1,0 +1,57 @@
+* {
+}
+
+.nilai-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 17px;
+}
+
+.success {
+  margin-top: 20px;
+  text-align: center;
+  color: green;
+  font-weight: 600;
+}
+
+.error {
+  margin-top: 20px;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media(max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .data-row,
+  .nilai-item {
+    flex-direction: column;
+  }
+
+  .value {
+    text-align: left;
+  }
+}
