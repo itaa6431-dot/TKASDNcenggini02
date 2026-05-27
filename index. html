@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pengumuman Hasil TKA SDN CENGGINI 02</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <div class="container">
+
+    <div class="header-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Logo_Kemendikbud.svg/640px-Logo_Kemendikbud.svg.png" class="logo">
+
+      <h1>PENGUMUMAN HASIL TKA</h1>
+      <h2>SD NEGERI CENGGINI 02</h2>
+
+      <p class="subtitle">
+        Tes Kemampuan Akademik Tahun 2026
+      </p>
+    </div>
+
+    <div class="login-card">
+      <h3>Login Siswa</h3>
+
+      <input
+        type="text"
+        id="nisn"
+        placeholder="Masukkan NISN"
+      />
+
+      <button onclick="cekData()">
+        LIHAT HASIL
+      </button>
+
+      <div id="hasil"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
